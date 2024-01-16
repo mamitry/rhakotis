@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Rhakotis is a web REST API of services used in the coptic church. Developed by St. Mark Coptic Church Frankfurt",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StMarkus/rhakotis.git"
@@ -20,6 +18,7 @@
   },
   "homepage": "https://github.com/StMarkus/rhakotis#readme",
   "dependencies": {
+    "@stmarkus/coptic-font-unicode-converter": "^1.0.2",
     "express": "^4.18.2"
   }
 }
