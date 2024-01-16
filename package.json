@@ -1,0 +1,25 @@
+{
+  "name": "rhakotis",
+  "version": "1.0.0",
+  "description": "Rhakotis is a web REST API of services used in the coptic church. Developed by St. Mark Coptic Church Frankfurt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StMarkus/rhakotis.git"
+  },
+  "keywords": [
+    "coptic"
+  ],
+  "author": "Martin Mitry <martin.mitry@kopten.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StMarkus/rhakotis/issues"
+  },
+  "homepage": "https://github.com/StMarkus/rhakotis#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
